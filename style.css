@@ -1,0 +1,169 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans",sans-serif;
+}
+
+.team-section
+{
+    height: 100vh;
+    display: flex;
+}
+
+.person
+{
+    flex: 1;
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+    transition: .6s;
+}
+
+.person:hover
+{
+    flex: 3;
+}
+
+.person-pic
+{
+    position: absolute;
+    height: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    filter: grayscale(80%);
+    transition: .3s;
+}
+
+.person:hover .person-pic
+{
+    filter: grayscale(0);
+}
+
+.person-info
+{
+    position: absolute;
+    bottom: 10px;
+    text-align: center;
+    width: 100%;
+    opacity: 0;
+    transition: .2s;
+}
+
+.person:hover .person-info
+{
+    opacity: 1;
+    bottom: 60px;
+    transition-delay: .6s;
+}
+
+.person-info h2
+{
+    font-size: 20px;
+    color: #fff;
+}
+
+.person-info .designation,p
+{
+    position: relative;
+    background-color: #333;
+    width: 140px;
+    padding: 8px;
+    border-radius: 20px 20px 20px 20px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    display: inline-block;
+    margin-top: 8px;
+    margin-bottom: 20px;
+}
+
+#dp1
+{
+    color: #b8e994;
+}
+
+#dp2
+{
+    color: #fff369; /*#cc91db*/
+}
+
+#dp3
+{
+    color: #72d6d2;
+}
+
+#dp4
+{
+    color: #f4a460;
+}
+.socialmedia a
+{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    color: #333;
+    background-color: darkslategray; /*#b8e994*/
+    line-height: 40px;
+    border-radius: 50%;
+    margin: 0 6px;
+    font-size: 18px;
+    transition: .3s linear;
+}
+
+.socialmedia a:hover
+{
+    color: #b8e994;
+    background-color: transparent;
+    transform: scale(1.5);
+}
+
+.fa-facebook-f
+{
+    color: #4b69b1;
+}
+
+.fa-twitter
+{
+    color: #0097e6;
+}
+
+.fa-instagram
+{
+    color: #e84393;
+}
+
+.fa-linkedin-in
+{
+    color: #0097e6;
+}
+
+.fa-whatsapp
+{
+    color: #25d366;
+}
+
+.fa-google-plus-g
+{
+    color: #dc4e41;
+}
+
+.fa-linkedin-in
+{
+    color: #ffffff;
+}
+
+.fa-snapchat-ghost
+{
+    color: #fffc01;
+}
+
+.fa-telegram-plane
+{
+    color: #f2f8fb;
+}
+
+.fa-youtube
+{
+    color: #f61c0d;
+}
