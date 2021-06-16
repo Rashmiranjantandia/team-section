@@ -2,7 +2,7 @@
 
 This project was generated with HTML, CSS, JS.
 
-## demo : https://horse-clip-clop.web.app/
+## demo : https://team-section-app.web.app/
 
 ## Sample Video
 
